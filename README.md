@@ -16,10 +16,10 @@ Mars Temperature Data
 
 Using Splinter an automated browsing was used to visit the Mars news site. Then, we have extracted the HTML code with Beautiful Soup. After that, we have scraped and extracted the titles and preview text of the news articles and we have stored them in a dictionary.
 
-Finally, we have exported the data to JSON file and we have saved them as mars.csv
+Finally, we have exported the data to JSON file and we have saved them as mars.json
 
 
-To see the full code written in this part check mars_data_challenge_part_1.ipynb
+To see the full code written in this part check part_1_mars_news.ipynb
 
 # 2. Scrape and Analyze Mars Weather Data
 Using Splinter an automated browsing was used to visit the Mars temperature data site. Then, we have extracted the HTML code with Beautiful Soup and we have scraped and extracted the Mars temperature table into a Pandas DataFrame and we have cleaned the table data by editing its data types.
@@ -31,8 +31,8 @@ Which month, on average, has the lowest temperature? The highest?
 Which month, on average, has the lowest atmospheric pressure? The highest?
 How many terrestrial days exist in a Martian year? A visual estimate within 25% was made.
 
-Finally, the last step was to export our data as mars_table.csv
-To see the full code written to do this part check mars_data_challenge_part_2.ipynb
+Finally, the last step was to export our data as data.csv
+To see the full code written to do this part check part_2_mars_weather.ipynb
 
 
 # Summary
